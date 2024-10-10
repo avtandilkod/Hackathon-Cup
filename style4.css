@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.3rem #71affb;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  display: block;
+}
+
+.section-1 {
+  display: grid;
+  grid-template-columns: 50fr 50fr;
+}
+
+/* ///////////////////////////////////////////////////////// */
+
+.header-1 {
+  width: 50%;
+  background-color: #555;
+  position: absolute;
+}
+
+.header-photo {
+  width: 450px;
+  height: 75px;
+}
+
+.logo {
+  padding: 0;
+  gap: 0.8rem;
+}
+
+.photo-1 {
+  background-image: url("photos/success.png");
+  background-color: #cccccc;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* //////////////////////////////////////////////////////*/
+.right1 {
+  background-color: #e4fde1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.rocket {
+  width: 40rem;
+  height: 40rem;
+}
+
+.end-p {
+  font-size: 3.6rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 3.6rem;
+  color: #000;
+}
